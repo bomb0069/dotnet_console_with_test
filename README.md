@@ -12,3 +12,9 @@
 
 ## Create Class Library Project
 >dotnet new classlib
+
+## Create Class PrimeService in namespace Prime.Services
+>ren Class1.cs PrimeService.cs
+
+## Add the class library project to the solution
+>dotnet sln add ./PrimeService/PrimeService.csproj
