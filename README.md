@@ -18,3 +18,11 @@
 
 ## Add the class library project to the solution
 >dotnet sln add ./PrimeService/PrimeService.csproj
+
+# Creat Unit Test Project 
+
+## Creating folder for Unit Test project
+>mkdir PrimeService.Tests
+>cd PrimeService.Tests
+
+>dotnet new xunit
