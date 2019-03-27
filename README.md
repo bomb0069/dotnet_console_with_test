@@ -34,3 +34,4 @@
 >cd ..
 >dotnet sln add ./PrimeService.Tests/PrimeService.Tests.csproj
 
+# Creating the first test
