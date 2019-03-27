@@ -26,3 +26,11 @@
 >cd PrimeService.Tests
 
 >dotnet new xunit
+
+## Add the PrimeService class library as another dependency to the project.
+>dotnet add reference ../PrimeService/PrimeService.csproj
+
+## Add the test project to the solution
+>cd ..
+>dotnet sln add ./PrimeService.Tests/PrimeService.Tests.csproj
+
